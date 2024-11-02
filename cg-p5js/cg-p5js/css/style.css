@@ -1,0 +1,63 @@
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: #FFF;
+	padding: 0;
+	margin: 0;
+	font-family: Verdana, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+#top-bar {
+	background-color: #303438;
+	width: calc(100% - 28px);
+	height: 30px;
+	padding: 0 14px;
+}
+
+#top-bar h1 {
+	display: inline-block;
+	margin: 0;
+	padding: 7px 0;
+	color: #89A;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+#top-bar ul {
+	display: inline-block;
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0 9px;
+	padding: 0;
+}
+
+#help-menu {
+}
+
+#link-menu {
+	float: right;
+}
+
+#top-bar ul li {
+	display: inline;
+}
+
+#top-bar ul li a  {
+	display: inline-block;
+	margin: 0;
+	padding: 7px;
+	color: #A0A8AF;
+	color: #89A;
+	text-decoration: none;
+}
+
+#top-bar ul li a:hover {
+	color: #fff;
+	background-color: #000;
+}
